@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import Dosis, { Georama } from "next/font/google";
 
 const config: Config = {
   content: [
@@ -21,10 +20,13 @@ const config: Config = {
         georama: ["Georama", "sans-serif"],
         koulen: ["Koulen", "sans-serif"]
       },
+      fontSize: {
+        'title': '11.25rem',
+      },
       colors: {
-        'yellow': '#EDB159',
-        'blue' : '#2A3A63',
-        'white': '#FAFAFA',
+        'yellow': '#f0ab4b',
+        'blue' : '#162b5b ',
+        'snow': '#FAFAFA',
         'black' : '#252525'
       },
     },
