@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { Dosis } from "next/font/google";
 import "./globals.css";
 
-const dosis = Dosis({ weight:"500", subsets: ["latin"] });
+const dosis = Dosis({
+  weight: ["400", "600", "700"], // Include multiple weights in the array
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "KUMPAS",

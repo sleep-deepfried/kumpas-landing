@@ -5,27 +5,42 @@ const Navbar = () =>{
         //Navbar Container
         <div className="h-24 bg-yellow flex flex-row items-center text-black justify-around">
             {/* Logo */}
-                <div className="flex flex-row items-center ">
-                    <Image src="/images/kumpas-logo.png" alt="logo" width={75} height={100} />
+                <button className="flex flex-row items-center ">
+                    <Image src="/images/kumpas-logo.png" alt="logo" width={75} height={75} />
                     <div className=" m-1"></div>
-                    <div className= "text-4xl font-dosis font-bold">
+                    <div className= "text-6xl font-bold">
                         KUMPAS
                     </div>
-                </div>
+                </button>
 
                 {/* Links */}
-                <div className="flex flex-row justify-around text-lg w-links">
-                    <div> Why Now</div>
-                    <div> Features </div>
-                    <div> Partnerships</div>
-                    <div> SGD </div>
-                    <div> About Us </div>
+                <div className="flex flex-row justify-around w-links font-georama text-xl">
+
+                    <button className="no-underline hover:underline underline-offset-8"> 
+                        Why Now
+                    </button>
+
+                    <button className="no-underline hover:underline underline-offset-8"> 
+                        Features 
+                    </button>
+
+                    <button className="no-underline hover:underline underline-offset-8"> 
+                        Partnerships
+                    </button>
+
+                    <button className="no-underline hover:underline underline-offset-8"> 
+                        SGD 
+                    </button>
+
+                    <button className="no-underline hover:underline underline-offset-8"> 
+                        About Us 
+                    </button>
                 </div>
 
                 {/* Buttons */}
-                <div>
-                    <button className="bg-gray-950 text-amber-400 rounded-lg p-2 m-2">Schedule a Demo</button>
-                    <button className="bg-gray-950 text-amber-400 rounded-lg p-2 m-2">Contact US</button>
+                <div className="text-xl font-bold">
+                    <button className="bg-white text-blue rounded-md p-2 m-2 ">SCHEDULE A DEMO</button>
+                    <button className="bg-blue text-white rounded-md p-2 m-2">CONTACT US</button>
                 </div>
         </div>
     );

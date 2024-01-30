@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import Dosis from "next/font/google";
+import Dosis, { Georama } from "next/font/google";
 
 const config: Config = {
   content: [
@@ -18,7 +18,8 @@ const config: Config = {
         "links" : '509px'
       },
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        georama: ["Georama", "sans-serif"],
+        koulen: ["Koulen", "sans-serif"]
       },
       colors: {
         'yellow': '#EDB159',
