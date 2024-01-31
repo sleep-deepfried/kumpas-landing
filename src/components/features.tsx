@@ -64,7 +64,7 @@ const Features = () =>{
 
             </div>
 
-            <div className="flex flex-col items-center font-bold my-10 text-secondary">
+            <div className="flex flex-col items-center font-bold my-10">
                 <p className="text-8xl">
                     BREAKING THE SILENCE.
                 </p>
