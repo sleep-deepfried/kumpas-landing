@@ -20,8 +20,9 @@ const WhyNow: React.FC = () => {
         });
     };
 
+
     return (
-        <div className="bg-snow flex flex-row mt-10 px-24 justify-between">
+        <div className="bg-snow flex flex-row mt-10 px-24 justify-between ">
             <div className="flex flex-col">
                 <div className="flex flex-row">
                     <div className="bg-blue h-9.5 w-0.5 mr-2"></div>
@@ -37,7 +38,7 @@ const WhyNow: React.FC = () => {
 
                 {/* Why Now Card 1 */}
                 <div
-                    className={`p-2 w-80 ${
+                    className={`p-2 w-1/2 ${
                         expandedCards === 1 ? 'border-l-4 border-blue' : ''
                     } `}
                     onClick={() => {toggleExpansion(1); }}
@@ -46,11 +47,11 @@ const WhyNow: React.FC = () => {
                         <Image
                             src="/images/why-now/why-now-1.svg"
                             alt="why-now-1"
-                            width={50}
-                            height={50}
+                            width={75}
+                            height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold">
+                            <p className="flex text-left font-bold text-lg">
                                 Lack of identity due to the exclusion in multilingual classrooms
                             </p>
                             <p
@@ -78,11 +79,11 @@ const WhyNow: React.FC = () => {
                         <Image
                             src="/images/why-now/why-now-2.svg"
                             alt="why-now-2"
-                            width={50}
-                            height={50}
+                            width={75}
+                            height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold">
+                            <p className="flex text-left font-bold text-lg">
                                 Treat deaf children as disabled and
                                 linguistic deprivation at a young age
                             </p>
@@ -108,11 +109,11 @@ const WhyNow: React.FC = () => {
                     <Image
                         src="/images/why-now/why-now-3.svg"
                         alt="why-now-3"
-                        width={50}
-                        height={50}
+                        width={75}
+                        height={75}
                     />
                     <div className="flex flex-col">
-                        <p className="flex text-left font-bold">
+                        <p className="flex text-left font-bold text-lg">
                             Exact messages only get across using 
                             mouthing
                         </p>
@@ -138,11 +139,11 @@ const WhyNow: React.FC = () => {
                     <Image
                         src="/images/why-now/why-now-4.svg"
                         alt="why-now-4"
-                        width={50}
-                        height={50}
+                        width={75}
+                        height={75}
                     />
                     <div className="flex flex-col">
-                        <p className="flex text-left font-bold">
+                        <p className="flex text-left font-bold text-lg">
                             No implementation plan of Filipino Sign 
                             Language in the present K-12 curriculum
                         </p>
