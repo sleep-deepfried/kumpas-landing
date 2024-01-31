@@ -27,7 +27,11 @@ const config: Config = {
         'yellow': '#f0ab4b',
         'blue' : '#162b5b ',
         'snow': '#FAFAFA',
-        'black' : '#252525'
+        'black' : '#252525',
+        'gray': '#5a5a5a'
+      },
+      boxShadow:{
+        'nuemorphic':'7px 7px 14px #d1d1d1, -7px -7px 14px #ebebeb',
       },
     },
   },

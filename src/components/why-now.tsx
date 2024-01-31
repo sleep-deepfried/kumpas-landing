@@ -22,7 +22,7 @@ const WhyNow: React.FC = () => {
 
 
     return (
-        <div className="bg-snow flex flex-row mt-10 px-24 justify-between ">
+        <div className="bg-snow flex flex-row my-20 px-24 justify-between ">
             <div className="flex flex-col">
                 <div className="flex flex-row">
                     <div className="bg-blue h-9.5 w-0.5 mr-2"></div>
