@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () =>{
     return (
         //Navbar Container
-        <div className="h-24 bg-yellow flex flex-row items-center text-black justify-around">
+        <div className="h-24 bg-primary flex flex-row items-center text-black justify-around">
             {/* Logo */}
                 <button className="flex flex-row items-center ">
                     <Image src="/images/kumpas-logo.png" alt="logo" width={75} height={75} />
@@ -39,8 +39,8 @@ const Navbar = () =>{
 
                 {/* Buttons */}
                 <div className="text-xl font-bold">
-                    <button className="bg-white text-blue rounded-md p-2 m-2 ">SCHEDULE A DEMO</button>
-                    <button className="bg-blue text-white rounded-md p-2 m-2">CONTACT US</button>
+                    <button className="bg-snow text-secondary rounded-md p-2 m-2 hover:bg-zinc-300">SCHEDULE A DEMO</button>
+                    <button className="bg-secondary text-white rounded-md p-2 m-2 hover:bg-indigo-950">CONTACT US</button>
                 </div>
         </div>
     );

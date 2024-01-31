@@ -25,13 +25,13 @@ const WhyNow: React.FC = () => {
         <div className="bg-snow flex flex-row my-20 px-24 justify-between ">
             <div className="flex flex-col">
                 <div className="flex flex-row">
-                    <div className="bg-blue h-9.5 w-0.5 mr-2"></div>
+                    <div className="bg-secondary h-9.5 w-0.5 mr-2"></div>
                     <p className="text-black font-georama text-4xl leading-tight">
                         WHY NOW?
                     </p>
                 </div>
 
-                <p className="font-bold text-6xl text-blue">
+                <p className="font-bold text-6xl text-secondary">
                     COMMUNICATION <br />
                     BARRIERS EXIST!
                 </p>
@@ -39,7 +39,7 @@ const WhyNow: React.FC = () => {
                 {/* Why Now Card 1 */}
                 <div
                     className={`p-2 w-1/2 ${
-                        expandedCards === 1 ? 'border-l-4 border-blue' : ''
+                        expandedCards === 1 ? 'border-l-4 border-secondary' : ''
                     } `}
                     onClick={() => {toggleExpansion(1); }}
                 >
@@ -71,7 +71,7 @@ const WhyNow: React.FC = () => {
                 <div
                     
                     className={`p-2 w-80 ${
-                        expandedCards === 2 ? 'border-l-4 border-blue' : ''
+                        expandedCards === 2 ? 'border-l-4 border-secondary' : ''
                     } `}
                     onClick={() => toggleExpansion(2)}
                 >
@@ -101,7 +101,7 @@ const WhyNow: React.FC = () => {
                 {/* Why Now Card 3 */}
                 <div
                     className={`p-2 w-80 ${
-                        expandedCards === 3 ? 'border-l-4 border-blue' : ''
+                        expandedCards === 3 ? 'border-l-4 border-secondary' : ''
                     } `}
                     onClick={() => toggleExpansion(3)}
                 >
@@ -131,7 +131,7 @@ const WhyNow: React.FC = () => {
                 {/* Why Now Card 4 */}
                 <div
                     className={`p-2 w-80 ${
-                        expandedCards  === 4 ? 'border-l-4 border-blue' : ''
+                        expandedCards  === 4 ? 'border-l-4 border-secondary' : ''
                     } `}
                     onClick={() => toggleExpansion(4)}
                 >

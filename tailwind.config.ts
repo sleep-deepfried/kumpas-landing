@@ -24,8 +24,8 @@ const config: Config = {
         'title': '11.25rem',
       },
       colors: {
-        'yellow': '#f0ab4b',
-        'blue' : '#162b5b ',
+        'primary': '#f0ab4b',
+        'secondary' : '#162b5b ',
         'snow': '#FAFAFA',
         'black' : '#252525',
         'gray': '#5a5a5a'
