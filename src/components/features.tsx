@@ -8,7 +8,7 @@ const Features = () =>{
                     FEATURES
                 </div>
                 <div className="font-bold text-7xl">
-                    OUR FEATURS & SERVICES
+                    OUR FEATURES & SERVICES
                 </div>
             </div>
 
