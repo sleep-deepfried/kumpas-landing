@@ -11,6 +11,9 @@ const config: Config = {
       width: {
         "links" : '509px'
       },
+      height: {
+        "educators" : '838px'
+      },
       fontFamily: {
         georama: ["Georama", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],

@@ -5,6 +5,7 @@ import Hero from "@/components/hero";
 import WhyNow from "@/components/why-now";
 import Features from "@/components/features";
 import Educators from "@/components/educators";
+import Partnership from "@/components/partnership";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyNow />
       <Features />
       <Educators />
+      <Partnership />
     </div>
   );
 }
