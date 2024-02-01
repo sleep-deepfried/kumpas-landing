@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Educators = () => {
     return(
-        <div className="bg-educators h-educators px-24 my-20 flex flex-row justify-around bg-no-repeat items-center">
+        <div className="px-24 py-20 flex flex-row justify-around items-center">
             <div className="-mt-14">
                 <Image src="/images/educators/educators-image.svg" alt="educators-image" width={756} height={500} />
             </div>
