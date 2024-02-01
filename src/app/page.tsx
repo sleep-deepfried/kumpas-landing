@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-import Navbar from "../components/navbar";
-import Hero from "../components/hero";
-import WhyNow from "../components/why-now";
-import Features from "../components/features";
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import WhyNow from "@/components/why-now";
+import Features from "@/components/features";
+import Educators from "@/components/educators";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <WhyNow />
       <Features />
+      <Educators />
     </div>
   );
 }
