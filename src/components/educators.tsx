@@ -3,8 +3,8 @@ import Image from "next/image";
 const Educators = () => {
     return(
         <div className="bg-educators h-educators px-24 my-20 flex flex-row justify-around bg-no-repeat items-center">
-            <div>
-                <Image src="/images/educators/educators-image.svg" alt="educators-image" width={500} height={500} />
+            <div className="-mt-14">
+                <Image src="/images/educators/educators-image.svg" alt="educators-image" width={756} height={500} />
             </div>
             <div className="flex flex-col space items-center gap-5">
                 <p className="font-georama text-4xl text-snow ">
