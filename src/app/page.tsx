@@ -10,6 +10,7 @@ import WhyNow from "@/components/why-now";
 import Features from "@/components/features";
 import Educators from "@/components/educators";
 import Partnership from "@/components/partnership";
+import SGD from "@/components/sgd";
 
 const Home: React.FC = () => {
 
@@ -27,6 +28,9 @@ const Home: React.FC = () => {
 
   const ref5 = useRef<HTMLDivElement>(null);
   const isVisible5 = useIsVisible(ref5);
+
+  const ref6 = useRef<HTMLDivElement>(null);
+  const isVisible6 = useIsVisible(ref6);
 
 
   return (
@@ -55,6 +59,10 @@ const Home: React.FC = () => {
 
       <div ref={ref5} className={`transition-opacity ease-in duration-1000 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
         <Partnership />
+      </div>
+
+      <div ref={ref6} className={`transition-opacity ease-in duration-1000 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
+        <SGD />
       </div>
       
     </div>
