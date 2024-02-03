@@ -69,7 +69,7 @@ const Team = () => {
           </p>
 
           <p className="font-georama font-light text-sm text-snow">
-            CCHIEF OPERATIONS OFFICER
+            CHIEF OPERATIONS OFFICER
           </p>
 
           <div className="flex flex-row gap-2">
