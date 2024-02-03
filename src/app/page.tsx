@@ -11,6 +11,8 @@ import Features from "@/components/features";
 import Educators from "@/components/educators";
 import Partnership from "@/components/partnership";
 import SGD from "@/components/sgd";
+import Team from "@/components/team";
+  
 
 const Home: React.FC = () => {
 
@@ -31,6 +33,9 @@ const Home: React.FC = () => {
 
   const ref6 = useRef<HTMLDivElement>(null);
   const isVisible6 = useIsVisible(ref6);
+
+  const ref7 = useRef<HTMLDivElement>(null);
+  const isVisible7 = useIsVisible(ref7);
 
 
   return (
@@ -61,8 +66,13 @@ const Home: React.FC = () => {
         <Partnership />
       </div>
 
-      <div ref={ref6} className={`transition-opacity ease-in duration-1000 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
-        <SGD />
+      <div className="bg-primary">
+        <div ref={ref6} className={`transition-opacity ease-in duration-1000 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
+          <SGD />
+        </div>
+      </div>
+      <div ref={ref7} className={`transition-opacity ease-in duration-1000 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
+        <Team />
       </div>
       
     </div>
