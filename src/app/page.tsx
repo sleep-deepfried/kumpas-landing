@@ -12,6 +12,7 @@ import Educators from "@/components/educators";
 import Partnership from "@/components/partnership";
 import SGD from "@/components/sgd";
 import Team from "@/components/team";
+import Footer from "@/components/footer";
   
 
 const Home: React.FC = () => {
@@ -37,9 +38,12 @@ const Home: React.FC = () => {
   const ref7 = useRef<HTMLDivElement>(null);
   const isVisible7 = useIsVisible(ref7);
 
+  const ref8 = useRef<HTMLDivElement>(null);
+  const isVisible8 = useIsVisible(ref8);
+
 
   return (
-    <div className="bg-no-repeat text-black  " style={{backgroundImage: `url('/images/background.png')`,}}>
+    <div className="bg-no-repeat text-black  " style={{backgroundImage: `url('/images/background.png')`, }}>
       <div>
         <Navbar />
       </div>
@@ -71,8 +75,15 @@ const Home: React.FC = () => {
           <SGD />
         </div>
       </div>
+
       <div ref={ref7} className={`transition-opacity ease-in duration-1000 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
         <Team />
+      </div>
+
+      <div className="bg-primary">
+        <div ref={ref8} className={`transition-opacity ease-in duration-1000 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
+          <Footer />
+        </div>
       </div>
       
     </div>

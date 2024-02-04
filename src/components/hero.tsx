@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () =>{
     return(
         //Hero Container
-        <div className="flex flex-row px-24 py-20 justify-around mb-20">
+        <section className="flex flex-row px-24 py-20 justify-around mb-20">
 
             <div className="flex flex-col">
                 <p className="font-georama text-snow text-4xl leading-tight">
@@ -31,7 +31,7 @@ const Hero = () =>{
             <div>
                 <Image src="/images/hero/kumpas-mockup.png" alt="hero-image" width={500} height={500} />
             </div>
-        </div>
+        </section>
     );
 };
 

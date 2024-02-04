@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const sgd =() => {
     return(
-        <div className="bg-primary">
+        <section className="bg-primary">
 
             <div className="flex flex-row p-14 gap-16 justify-center font-georama ">
 
@@ -34,7 +34,7 @@ const sgd =() => {
 
             </div>
 
-        </div>
+        </section>
     );
 }
 

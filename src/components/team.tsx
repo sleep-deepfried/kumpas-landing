@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <div className="flex flex-col items my-20 px-24 gap-8">
+    <section className="flex flex-col items my-20 px-24 gap-8">
 
       <div className="flex flex-col text-center">
 
@@ -156,7 +156,7 @@ const Team = () => {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }
 
