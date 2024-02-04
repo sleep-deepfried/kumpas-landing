@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Partnership = () => {
     return(
-        <section className="my-20 flex flex-col px-24 gap-14">
+        <section id="partnership" className="my-20 flex flex-col px-24 gap-14">
         
         <div className="flex flex-col">
             <div className="flex flex-row">
@@ -127,3 +127,4 @@ const Partnership = () => {
 }
 
 export default Partnership;
+export const partnershipId = "partnership";

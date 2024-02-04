@@ -43,13 +43,16 @@ const Home: React.FC = () => {
 
 
   return (
-    <div className="bg-no-repeat text-black  " style={{backgroundImage: `url('/images/background.png')`, }}>
-      <div>
+    <div className="text-black overflow-x-hidden">
+      <div className="w-full fixed">
         <Navbar />
       </div>
-      
-      <div ref={ref1} className={`transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-        <Hero />
+
+      <div className="h-[750px] w-[150%] ml bg-secondary rounded-b-[100%] ml-[-25%] ">
+        <div className="h-24"></div>
+          <div ref={ref1} className={`transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+            <Hero />
+        </div>
       </div>
       
       <div ref={ref2} className={`transition-opacity ease-in duration-1000 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
@@ -60,7 +63,7 @@ const Home: React.FC = () => {
         <Features />
       </div>
       
-      <div className="bg-educators h-educators bg-no-repeat">
+      <div className="bg-educators h-educators w-full bg-cover bg-no-repeat">
         <div ref={ref4} className={`transition-opacity ease-in duration-1000 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
           <Educators />
         </div>
@@ -81,7 +84,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="bg-primary">
-        <div ref={ref8} className={`transition-opacity ease-in duration-1000 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref8} className={`transition-opacity ease-in duration-1000 ${isVisible8 ? "opacity-100" : "opacity-0"}`}>
           <Footer />
         </div>
       </div>

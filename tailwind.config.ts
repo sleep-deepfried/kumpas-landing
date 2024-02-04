@@ -26,7 +26,8 @@ const config: Config = {
         'secondary' : '#162b5b ',
         'snow': '#FAFAFA',
         'black' : '#252525',
-        'gray': '#5a5a5a'
+        'gray': '#5a5a5a',
+        'light-blue':'#273c70'
       },
       boxShadow:{
         'nuemorphic':'7px 7px 14px #d1d1d1, -7px -7px 14px #ebebeb',
@@ -37,6 +38,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 };
 export default config;

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const sgd =() => {
     return(
-        <section className="bg-primary">
+        <section id="sgd" className="bg-primary">
 
             <div className="flex flex-row p-14 gap-16 justify-center font-georama ">
 
@@ -39,3 +39,4 @@ const sgd =() => {
 }
 
 export default sgd;
+export const sgdId = "sgd";

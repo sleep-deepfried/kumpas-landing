@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <section className="flex flex-col items my-20 px-24 gap-8">
+    <section id="team" className="flex flex-col items my-20 px-24 gap-8">
 
       <div className="flex flex-col text-center">
 
@@ -161,3 +161,4 @@ const Team = () => {
 }
 
 export default Team;
+export const teamId = "team";

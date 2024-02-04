@@ -2,8 +2,9 @@ import Image from "next/image";
 
 const Features = () =>{
     return(
-        <div className="flex flex-col items-center px-24 mx-15">
-            <div className="my-5">
+        <div  className="flex flex-col items-center px-24 mx-15">
+            <div id="features" className="h-24"></div>
+            <div className="">
                 <div className="font-georama text-4xl h-16 w- bg-secondary text-snow flex justify-center items-center">
                     FEATURES
                 </div>
@@ -78,6 +79,7 @@ const Features = () =>{
 };
 
 export default Features;
+export const featuresId = "features";
 
 const featuresCardContainer = "flex flex-row p-4 m-2 shadow-nuemorphic rounded-3xl transition-colors ease-in-out duration-700 hover:bg-secondary hover:text-snow text-left"
 const featuresCardTitle = "text-3xl font-bold";
