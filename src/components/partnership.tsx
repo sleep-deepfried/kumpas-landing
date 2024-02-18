@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const Partnership = () => {
     return(
-        <section id="partnership" className="my-20 flex flex-col px-24 gap-14">
+        <section id="partnership" className="my-10 sm:my-20 flex flex-col px-10 sm:px-24 gap:7 sm:gap-14">
         
         <div className="flex flex-col">
             <div className="flex flex-row">
-                <div className="bg-secondary h-11 w-1 mr-2"></div>
-                <p className="font-georama text-4xl">
+                <div className="bg-secondary h-8 sm:h-11 w-1 mr-2"></div>
+                <p className="font-georama text-2xl sm:text-4xl">
                     TARGET PARTNERSHIP
                 </p>
             </div>
 
-            <p className="font-bold text-7xl">
+            <p className="font-bold text-4xl sm:text-7xl">
                     OUR PARTNERS
             </p>
 
-            <p className="font-georama text-xl">
-                Kumpas aspires to establish meaningful partnerships with Deaf Organizations across <br />
-                the Philippines, fostering collaboration with educational institutions that specialize in <br />
-                Special Needs Education (SNED).
+            <p className="font-georama text-xs sm:text-xl">
+                Kumpas aspires to establish meaningful partnerships with Deaf Organizations across 
+                the Philippines, fostering collaboration with educational institutions that specialize in
+                Special Needs Education.
             </p>
         </div>
 
-            <div className="grid grid-cols-4 gap-8 text-xl">
+            <div className="flex-col sm:grid grid-cols-4 gap-8 text-xl">
 
                 <button className="p-4 flex flex-row gap-4 items-center rounded-2xl transition-shadow ease-in-out duration-500 hover:shadow-nuemorphic">
                     <Image

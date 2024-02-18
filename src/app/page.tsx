@@ -63,7 +63,7 @@ const Home: React.FC = () => {
         <Features />
       </div>
       
-      <div className="bg-educators h-educators w-full bg-cover bg-no-repeat">
+      <div className="bg-educators sm:h-educators w-full bg-cover bg-no-repeat">
         <div ref={ref4} className={`transition-opacity ease-in duration-1000 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
           <Educators />
         </div>

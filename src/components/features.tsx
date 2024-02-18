@@ -20,7 +20,7 @@ const Features = () =>{
                         <p className={featuresCardTitle}>
                             For the Deaf
                         </p>
-                        <p className={featuresCardDescription}>
+                        <p className={featuresCardDescription   }>
                         The sign-to-text translator uses computer vision and machine learning to identify and convert sign language
                         </p>
                     </div>
@@ -66,10 +66,10 @@ const Features = () =>{
             </div>
 
             <div className="flex flex-col items-center font-bold my-10">
-                <p className="text-8xl">
+                <p className="text-3xl sm:text-8xl">
                     BREAKING THE SILENCE.
                 </p>
-                <p className="text-7xl">
+                <p className="text-2xl sm:text-7xl">
                     BRIDGING THE GAP.
                 </p>
             </div>

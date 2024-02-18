@@ -3,21 +3,21 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <section id="team" className="flex flex-col items my-20 px-24 gap-8">
+    <section id="team" className="flex flex-col items my-20 px-10 sm:px-24 gap-8">
 
       <div className="flex flex-col text-center">
 
-      <p className="font-georama text-3xl">
+      <p className="font-georama text-xl sm:text-3xl">
         MEET THE
       </p>
 
-      <p className="font-bold text-6xl">
+      <p className="font-bold text-3xl sm:text-6xl">
         TEAM
       </p>
 
       </div>
 
-      <div className="flex flex-row gap-10 justify-center">
+      <div className="flex flex-col sm:flex-row gap-10 justify-center">
 
         <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2">
 

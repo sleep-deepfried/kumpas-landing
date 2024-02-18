@@ -38,7 +38,7 @@ const WhyNow: React.FC = () => {
                         BARRIERS EXIST!
                     </p>
                 </div>
-
+                
                 {/* Why Now Card 1 */}
                 <div
                     className={`p-2 w-1/2 ${
@@ -162,7 +162,7 @@ const WhyNow: React.FC = () => {
 
             </div>
             
-            <div className="flex items-center sm:items-end">
+            <div className="hidden sm:flex items-center sm:items-end ">
                {/* Why Now Image 1 */}
                 {expandedCards !== null && (
                     <div className={`transition-opacity duration-700 ease-in-out opacity-${expandedCards === 1 ? '100' : '0'}`}>
