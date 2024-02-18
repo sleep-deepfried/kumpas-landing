@@ -4,7 +4,7 @@ const Features = () =>{
     return(
         <div  className="flex flex-col items-center mx-15 px-10 sm:px-24 ">
             <div id="features" className="h-24"></div>
-            <div className="">
+            <div className="text-center">
                 <div className="font-georama text-2xl py-2 sm:text-4xl sm:h-16 bg-secondary text-snow flex justify-center items-center">
                     FEATURES
                 </div>
@@ -65,7 +65,7 @@ const Features = () =>{
 
             </div>
 
-            <div className="flex flex-col items-center font-bold my-10">
+            <div className="flex flex-col items-center font-bold my-10 text-center">
                 <p className="text-3xl sm:text-8xl">
                     BREAKING THE SILENCE.
                 </p>

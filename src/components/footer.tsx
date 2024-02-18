@@ -6,8 +6,8 @@ const Footer = () => {
             
             <div className="flex flex-row">
 
-                <div className="flex flex-row gap-44 sm:flex-col sm:gap-2">
-                    <p className="font-bold text-3xl">
+                <div className="flex flex-row gap-52 sm:flex-col sm:gap-2">
+                    <p className="font-bold text-lg sm:text-3xl">
                         KUMPAS
                     </p>
 
@@ -37,19 +37,19 @@ const Footer = () => {
                         TERMS OF SERVICE
                     </a>
 
-                    <div className="h-4 w-px bg-black items-center"></div>
+                    <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
                 
                     <a href="" target="blank" className="font-georama text-center">
                         PRIVACY POLICY
                     </a>
                     
-                    <div className="h-4 w-px bg-black items-center"></div>
+                    <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
 
                     <a href="" target="blank" className="font-georama ">
                         REFUND POLICY
                     </a>
                     
-                    <div className="h-4 w-px bg-black items-center"></div>
+                    <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
 
                     <a href="" target="blank" className="font-georama">
                         ACCESSIBILITY POLICY
