@@ -17,24 +17,24 @@ const Team = () => {
 
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-10 justify-center">
+      <div className="grid grid-cols-2 sm:flex flex-col sm:flex-row gap-10 justify-center">
 
         <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2">
 
           <Image src="/images/team/luis.svg" alt="luis" width={215} height={200} />
 
-          <p className="text-2xl font-bold text-primary">
+          <p className="sm:text-2xl font-bold text-primary">
             LUIS MAVERICK GABRIEL
           </p>
 
-          <p className="font-georama font-light text-xs text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
           Luis is the head officer in-charge in <br />
           developing Kumpas. He is currently the <br />
           AWSCC Haribon Captain and GDSC PLM <br />
           Data Lead
           </p>
 
-          <p className="font-georama font-light text-sm text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
             CHIEF TECHNOLOGY OFFICER
           </p>
 
@@ -57,18 +57,18 @@ const Team = () => {
 
           <Image src="/images/team/earl.svg" alt="earl" width={180} height={200} />
 
-          <p className="text-2xl font-bold text-primary">
+          <p className="sm:text-2xl font-bold text-primary">
             EARL JOHN PULIDO
           </p>
 
-          <p className="font-georama font-light text-xs text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
           Earl is the head officer in-charge in the <br />
           operations of Kumpas. He is currently the <br />
           AWS CC Haribon Co-Captain and ICpEP.se <br />
           PLM Treasurer<br />
           </p>
 
-          <p className="font-georama font-light text-sm text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
             CHIEF OPERATIONS OFFICER
           </p>
 
@@ -91,18 +91,18 @@ const Team = () => {
 
           <Image src="/images/team/ricki.png" alt="ricki" width={200} height={200} />
 
-          <p className="text-2xl font-bold text-primary">
+          <p className="sm:text-2xl font-bold text-primary">
             RICKI MAE VICENTE
           </p>
 
-          <p className="font-georama font-light text-xs text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
             Ricki is the executive officer of Kumpas. She <br />
             is currently the College of Engineering <br />
             Secretariat Head and volunteer <br />
             of Operations Department of GDSC PLM <br />
           </p>
 
-          <p className="font-georama font-light text-sm text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
             CHIEF EXECUTIVE OFFICER
           </p>
 
@@ -125,18 +125,18 @@ const Team = () => {
 
           <Image src="/images/team/vince.svg" alt="vince" width={200} height={200} />
 
-          <p className="text-2xl font-bold text-primary">
+          <p className="sm:text-2xl font-bold text-primary">
             VINCE VILLANUEVA
           </p>
 
-          <p className="font-georama font-light text-xs text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
             Vince is the research and development head. <br />
             He is the GDSC PLM Community Relations <br />
             Lead and senior officer under Secretariat <br />
             Committee of CEng
           </p>
 
-          <p className="font-georama font-light text-sm text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
             RESEARCH & DEVELOPMENT OFFICER
           </p>
 
