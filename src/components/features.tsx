@@ -2,18 +2,18 @@ import Image from "next/image";
 
 const Features = () =>{
     return(
-        <div  className="flex flex-col items-center px-24 mx-15">
+        <div  className="flex flex-col items-center mx-15 px-10 sm:px-24 ">
             <div id="features" className="h-24"></div>
             <div className="">
-                <div className="font-georama text-4xl h-16 w- bg-secondary text-snow flex justify-center items-center">
+                <div className="font-georama text-2xl py-2 sm:text-4xl sm:h-16 bg-secondary text-snow flex justify-center items-center">
                     FEATURES
                 </div>
-                <div className="font-bold text-7xl">
+                <div className="font-bold text-3xl sm:text-7xl">
                     OUR FEATURES & SERVICES
                 </div>
             </div>
 
-            <div className="flex flex-row my-10">
+            <div className="sm:flex flex-row my-10">
 
                 <button className={featuresCardContainer}>
                     <div className="flex flex-col justify-around">

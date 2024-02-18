@@ -22,20 +22,22 @@ const WhyNow: React.FC = () => {
 
 
     return (
-        <div className="bg-snow flex flex-row px-24 justify-between">
+        <div className="bg-snow flex flex-row justify-between px-10 sm:px-24">
             <div className="flex flex-col">
-                <div id="why-now" className="h-20" > </div>
-                <div className="flex flex-row">
-                    <div className="bg-secondary h-9.5 w-0.5 mr-2"></div>
-                    <p className="text-black font-georama text-4xl leading-tight">
-                        WHY NOW?
+                <div className="flex flex-col gap-4 mb-4">
+                    <div id="why-now" className="h-20" > </div>
+                    <div className="flex flex-row">
+                        <div className="bg-secondary sm:h-9.5 w-0.5 mr-2"></div>
+                        <p className="text-black font-georama leading-tight text-2xl sm:text-4xl ">
+                            WHY NOW?
+                        </p>
+                    </div>
+
+                    <p className="font-bold text-secondary text-3xl sm:text-6xl">
+                        COMMUNICATION
+                        BARRIERS EXIST!
                     </p>
                 </div>
-
-                <p className="font-bold text-6xl text-secondary">
-                    COMMUNICATION <br />
-                    BARRIERS EXIST!
-                </p>
 
                 {/* Why Now Card 1 */}
                 <div
@@ -52,11 +54,11 @@ const WhyNow: React.FC = () => {
                             height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold text-lg">
+                            <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
                                 Lack of identity due to the exclusion in multilingual classrooms
                             </p>
                             <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden ${
+                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base ${
                                     expandedCards === 1 ? 'max-h-20' : 'max-h-0' 
                                 }`}
                             >
@@ -84,12 +86,12 @@ const WhyNow: React.FC = () => {
                             height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold text-lg">
+                            <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
                                 Treat deaf children as disabled and
                                 linguistic deprivation at a young age
                             </p>
                             <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden ${
+                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
                                     expandedCards === 2 ? 'max-h-20' : 'max-h-0'
                                 }`}
                             >
@@ -114,12 +116,12 @@ const WhyNow: React.FC = () => {
                         height={75}
                     />
                     <div className="flex flex-col">
-                        <p className="flex text-left font-bold text-lg">
+                        <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
                             Exact messages only get across using 
                             mouthing
                         </p>
                         <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden ${
+                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
                                     expandedCards  === 3 ? 'max-h-20' : 'max-h-0'
                                 }`}
                             >
@@ -144,11 +146,11 @@ const WhyNow: React.FC = () => {
                         height={75}
                     />
                     <div className="flex flex-col">
-                        <p className="flex text-left font-bold text-lg">
+                        <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
                             No implementation plan of Filipino Sign 
                             Language in the present K-12 curriculum
                         </p>
-                        <p className={`text-justify transition-max-height duration-700 overflow-hidden ${
+                        <p className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
                                     expandedCards === 4 ? 'max-h-20' : 'max-h-0'
                                 }`}
                             >
@@ -160,7 +162,7 @@ const WhyNow: React.FC = () => {
 
             </div>
             
-            <div>
+            <div className="flex items-center sm:items-end">
                {/* Why Now Image 1 */}
                 {expandedCards !== null && (
                     <div className={`transition-opacity duration-700 ease-in-out opacity-${expandedCards === 1 ? '100' : '0'}`}>
@@ -180,7 +182,7 @@ const WhyNow: React.FC = () => {
                     <div className={`transition-opacity duration-700 ease-in-out opacity-${expandedCards === 2 ? '100' : '0'}`}>
                         {expandedCards === 2 && (
                         <Image
-                            src={`/images/why-now/why-now-${expandedCards}.svg`}
+                            src={`/images/why-now/why-now-${expandedCards}-image.png`}
                             alt={`why-now-image-${expandedCards}`}
                             width={600}
                             height={600}
@@ -194,7 +196,7 @@ const WhyNow: React.FC = () => {
                     <div className={`transition-opacity duration-700 ease-in-out opacity-${expandedCards === 3 ? '100' : '0'}`}>
                         {expandedCards === 3 && (
                         <Image
-                            src={`/images/why-now/why-now-${expandedCards}.svg`}
+                            src={`/images/why-now/why-now-${expandedCards}-image.png`}
                             alt={`why-now-image-${expandedCards}`}
                             width={600}
                             height={600}

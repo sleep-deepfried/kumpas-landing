@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       width: {
-        "links" : '509px'
+        "links" : '509px',
+        'hero' : '440px'
       },
       height: {
         "educators" : '838px'
@@ -20,6 +21,7 @@ const config: Config = {
       },
       fontSize: {
         'title': '11.25rem',
+        'small-text': '0.625rem',
       },
       colors: {
         'primary': '#f0ab4b',
