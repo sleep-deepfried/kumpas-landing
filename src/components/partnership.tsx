@@ -23,7 +23,7 @@ const Partnership = () => {
             </p>
         </div>
 
-            <div className="flex-col sm:grid grid-cols-4 gap-8 text-xl">
+            <div className="flex-col sm:grid grid-cols-4 gap-8 sm:text-xl">
 
                 <button className="p-4 flex flex-row gap-4 items-center rounded-2xl transition-shadow ease-in-out duration-500 hover:shadow-nuemorphic">
                     <Image
@@ -32,7 +32,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         DEPARTMENT OF EDUCATION
                     </p>
                 </button>
@@ -44,7 +44,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         SAVE THE CHILDREN
                     </p>
                 </button>
@@ -56,7 +56,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         KAKAMAY MOVEMENT
                     </p>
                 </button>
@@ -68,7 +68,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         FILIPINO SIGN LANGUAGE FOR THE FILIPINO DEAF
                     </p>
                 </button>
@@ -80,7 +80,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         MCID COLLEGE OF TECHNOLOGY
                     </p>
                 </button>
@@ -92,7 +92,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         PHILIPPINE SCHOOL FOR THE DEAF
                     </p>
                 </button>
@@ -104,7 +104,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         DE LA SALLE COLLEGE OF SAINT BENILDE
                     </p>
                 </button>
@@ -116,7 +116,7 @@ const Partnership = () => {
                         width={75}
                         height={75}
                     />
-                    <p className="font-georama text-xl text-left">
+                    <p className="font-georama text-left">
                         PHILIPPINE INSTITUTE FOR THE DEAF
                     </p>
                 </button>

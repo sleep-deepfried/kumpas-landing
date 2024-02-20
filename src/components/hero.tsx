@@ -3,7 +3,9 @@ import Image from "next/image";
 const Hero = () =>{
     return(
         //Hero Container
-        <section className="flex flex-row px-[20%] py-10 sm:py-20 justify-around mb-20 ">
+        <section className="flex flex-col px-[21%] py-10 sm:py-20 sm:mb-20">
+
+        <div className="flex flex-row gap-4 justify-between">
 
             <div className="flex flex-col">
                 <p className="font-georama text-snow text-2xl sm:text-4xl sm:leading-tight">
@@ -17,22 +19,25 @@ const Hero = () =>{
                 Communication through Adaptive Translation 
                 with Natural Language Processing (NLP) 
                 and Long Short-Term Memory (LSTM)
-                <br />
-                <br /> 
-                Succors in breaking down communication gap,
-                empower deaf individualsand help learn and 
-                communicate through Filipino Sign Language (FSL)
                 </p>
-                
-                <div className="mt-5">
-                <button className="bg-snow text-secondary rounded-md sm:rounded-md text-xs p-1.5 sm:p-2 sm:text-3xl font-bold hover:bg-zinc-300">
-                    TRY IT OUT! 
-                </button>
-                </div>
             </div>
 
             <div className="flex items-center">
                 <Image src="/images/hero/kumpas-mockup.png" alt="hero-image" width={550} height={500} />
+            </div>
+
+        </div>
+
+        <p className="hidden sm:flex text-snow text-small-text sm:text-xl w-44 sm:w-hero sm:-mt-24">
+                Succors in breaking down communication gap,
+                empower deaf individualsand help learn and 
+                communicate through Filipino Sign Language (FSL)
+        </p>
+
+            <div className="self-center sm:self-start mt-7 sm:mt-5">
+                <button className="bg-snow text-secondary rounded-md sm:rounded-md text-lg p-1.5 sm:p-2 sm:text-3xl font-bold hover:bg-zinc-300">
+                    TRY IT OUT! 
+                </button>
             </div>
         </section>
     );

@@ -22,10 +22,10 @@ const WhyNow: React.FC = () => {
 
 
     return (
-        <div className="bg-snow flex flex-row justify-between px-10 sm:px-24">
+        <section className="bg-snow flex flex-row justify-between px-10 sm:px-24">
             <div className="flex flex-col">
                 <div className="flex flex-col gap-4 mb-4">
-                    <div id="why-now" className="h-20" > </div>
+                    <div id="why-now" className="h-10 sm:h-20" > </div>
                     <div className="flex flex-row">
                         <div className="bg-secondary sm:h-9.5 w-0.5 mr-2"></div>
                         <p className="text-black font-georama leading-tight text-2xl sm:text-4xl ">
@@ -162,7 +162,7 @@ const WhyNow: React.FC = () => {
 
             </div>
             
-            <div className="hidden sm:flex items-center sm:items-end ">
+            <div className="hidden sm:flex sm:items-center items-end ">
                {/* Why Now Image 1 */}
                 {expandedCards !== null && (
                     <div className={`transition-opacity duration-700 ease-in-out opacity-${expandedCards === 1 ? '100' : '0'}`}>
@@ -219,7 +219,7 @@ const WhyNow: React.FC = () => {
                     </div>
                 )}
                 </div>
-        </div>
+        </section>
     );
 };
 

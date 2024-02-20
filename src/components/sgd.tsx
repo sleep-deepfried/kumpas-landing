@@ -4,7 +4,7 @@ const sgd =() => {
     return(
         <section id="sgd" className="bg-primary">
 
-            <div className="flex flex-col sm:flex-row p-14 gap-16 justify-center font-georama ">
+            <div className="flex flex-col sm:flex-row p-14 gap-16 justify-center font-georama font-semibold">
 
                     <div className='flex flex-col sm:flex-row gap-4 items-center shadow-nuemorphic-sgd p-10 sm:p-10 rounded-lg' >
                         <Image src="/images/sgd/sgd-4.svg" alt="sgd-4" width={220} height={220} />

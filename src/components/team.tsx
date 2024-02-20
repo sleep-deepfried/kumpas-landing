@@ -95,14 +95,14 @@ const Team = () => {
             RICKI MAE VICENTE
           </p>
 
-          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-sm text-snow">
             Ricki is the executive officer of Kumpas. She <br />
             is currently the College of Engineering <br />
             Secretariat Head and volunteer <br />
             of Operations Department of GDSC PLM <br />
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-xs text-snow">
             CHIEF EXECUTIVE OFFICER
           </p>
 
@@ -129,14 +129,14 @@ const Team = () => {
             VINCE VILLANUEVA
           </p>
 
-          <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
+          <p className="font-georama font-light text-[4px] sm:text-sm text-snow">
             Vince is the research and development head. <br />
             He is the GDSC PLM Community Relations <br />
             Lead and senior officer under Secretariat <br />
             Committee of CEng
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
+          <p className="font-georama font-light text-[8px] sm:text-xs text-snow">
             RESEARCH & DEVELOPMENT OFFICER
           </p>
 

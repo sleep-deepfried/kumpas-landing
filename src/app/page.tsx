@@ -48,14 +48,14 @@ const Home: React.FC = () => {
         <Navbar />
       </div>
 
-      <div className="h-[510px] sm:h-[750px] w-[150%] ml bg-secondary rounded-b-[100%] ml-[-25%] ">
+      <div className="h-[400px] sm:h-[750px] w-[150%] ml bg-secondary rounded-b-[50%] sm:rounded-b-[100%] ml-[-25%] ">
         <div className="h-24"></div>
           <div ref={ref1} className={`transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <Hero />
         </div>
       </div>
       
-      <div ref={ref2} className={`transition-opacity ease-in duration-1000 ${isVisible2 ? "opacity-100" : "opacity-0"} px:10`}>
+      <div ref={ref2} className={`transition-opacity ease-in duration-1000 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
         <WhyNow />
       </div>
       
