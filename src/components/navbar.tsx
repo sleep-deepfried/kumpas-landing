@@ -69,7 +69,7 @@ const Navbar: React.FC = () =>{
 
     return (
         //Navbar Container
-        <section className="px-5 h-24 justify-between bg-primary flex sm:px-20 flex-row items-center text-black">
+        <section className="px-5 h-24 justify-between bg-primary flex xl:px-20 flex-row items-center text-black">
             {/* Logo */}
             <button className="flex flex-row items-center" onClick={scrollToTop}>
                 <Image src="/images/kumpas-logo.png" alt="logo" width={75} height={75} />
@@ -80,7 +80,7 @@ const Navbar: React.FC = () =>{
             </button>
 
             {/* Hamburger Button */}
-            <div className="sm:hidden">
+            <div className="xl:hidden">
                 <button className="text-white" onClick={toggleLinks}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="black">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" />
@@ -89,7 +89,7 @@ const Navbar: React.FC = () =>{
             </div>
 
             {/*Hamburger Links */}
-            <div ref={ref1} className={`font-bold sm:hidden ${showLinks ? "flex" : "hidden"} flex-col gap-4 text-xl absolute left-0 top-[100%] w-full min-h-[6vh] bg-primary pb-5 
+            <div ref={ref1} className={`font-bold xl:hidden ${showLinks ? "flex" : "hidden"} flex-col gap-4 text-xl absolute left-0 top-[100%] w-full min-h-[6vh] bg-primary pb-5 
             transition-opacity duration-500 ease-in-out ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
                 <button className="no-underline hover:underline underline-offset-8" onClick={() => {scrollToWhyNow(); toggleLinks();}}>  
                     Why Now
@@ -125,7 +125,7 @@ const Navbar: React.FC = () =>{
             </div>
 
             {/* Links and Buttons */}
-            <div className={`sm:flex hidden flex-row text-xl gap-32`}>
+            <div className={`xl:flex hidden flex-row text-xl gap-32`}>
                 <div className="flex flex-row gap-4 font-georama">
                     <button className="no-underline hover:underline underline-offset-8" onClick={scrollToWhyNow}> 
                         Why Now
