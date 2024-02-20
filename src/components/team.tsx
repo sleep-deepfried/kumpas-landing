@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <section id="team" className="flex flex-col items my-10 sm:my-20 px-10 sm:px-24 gap-8">
+    <section id="team" className="flex flex-col items my-10 sm:my-20 px-5 sm:px-24 gap-8">
 
       <div className="flex flex-col text-center">
 
@@ -17,7 +17,7 @@ const Team = () => {
 
       </div>
 
-      <div className="grid grid-cols-2 sm:flex flex-col sm:flex-row gap-10 justify-between">
+      <div className="grid grid-cols-2 sm:flex flex-col sm:flex-row gap-6 sm:gap-10 justify-between">
 
         <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 max-w-[300px]">
 
@@ -27,7 +27,7 @@ const Team = () => {
             LUIS MAVERICK GABRIEL
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
+          <p className="font-georama font-light text-[6px] sm:text-xs text-snow">
           Luis is the Head Officer in-charge in 
           developing Kumpas. He is currently the 
           AWSCC Haribon Captain and GDSC PLM 
@@ -61,7 +61,7 @@ const Team = () => {
             EARL JOHN PULIDO
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
+          <p className="font-georama font-light text-[6px] sm:text-xs text-snow">
           Earl is the Head Officer in-charge in the 
           Operations of Kumpas. He is currently the 
           AWS CC Haribon Co-Captain and ICpEP.se 
@@ -95,7 +95,7 @@ const Team = () => {
             RICKI MAE VICENTE
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-sm text-snow w-50">
+          <p className="font-georama font-light text-[6px] sm:text-sm text-snow w-50">
             Ricki is the Executive Officer of 
             Kumpas. She is currently the CEng 
             Secretariat Head and volunteer 
@@ -129,7 +129,7 @@ const Team = () => {
             VINCE VILLANUEVA
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-sm text-snow">
+          <p className="font-georama font-light text-[6px] sm:text-sm text-snow">
             Vince is the Research and 
             Development head.He is the 
             GDSC PLM ComRel Lead and Senior 
