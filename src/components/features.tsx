@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Features = () =>{
     return(
-        <div  className="flex flex-col items-center mx-15 px-10 sm:px-24 ">
-            <div id="features" className="h-24"></div>
-            <div className="text-center">
+        <section  className="flex flex-col items-center mx-15 px-10 sm:px-24 ">
+            <div id="features" className="h-12 sm:h-24"></div>
+            <div className="text-center ">
                 <div className="font-georama text-2xl py-2 sm:text-4xl sm:h-16 bg-secondary text-snow flex justify-center items-center">
                     FEATURES
                 </div>
@@ -74,7 +74,7 @@ const Features = () =>{
                 </p>
             </div>
         
-        </div>
+        </section>
     );
 };
 

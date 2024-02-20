@@ -1,27 +1,28 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
     return(
-        <section className="px-10 sm:px-24 py-4 flex flex-col gap-5 sm:gap-10">
+        <section className="px-10 sm:px-24 py-4 flex flex-col gap-3 sm:gap-5">
             
             <div className="flex flex-row">
 
-                <div className="flex flex-row gap-52 sm:flex-col sm:gap-2">
+                <div className="flex flex-row justify-between sm:flex-col sm:gap-2 w-screen">
                     <p className="font-bold text-lg sm:text-3xl">
                         KUMPAS
                     </p>
 
                     <div className="flex flex-row gap-2 items-center">
-                        <a href="" target="blank">
+                        <Link href="/" >
                             <Image src="/images/footer/fb.svg" alt="fb" width={10} height={20}/>
-                        </a>
+                        </Link>
 
-                        <a href="" target="blank">
+                        <Link href="/" >
                             <Image src="/images/footer/ig.svg" alt="ig" width={20} height={20}/>
-                        </a>
-                        <a href="" target="blank">
+                        </Link>
+                        <Link href="/" >
                             <Image src="/images/footer/linkedin.svg" alt="linkedin" width={22} height={20}/>
-                        </a>
+                        </Link>
 
                     </div>
                 </div>
@@ -33,27 +34,27 @@ const Footer = () => {
 
                 <div className="flex flex-row gap-2 items-center text-[7px] sm:text-sm">
 
-                    <a href="" target="blank" className="font-georama text-center">
+                    <Link href="" target="blank" className="font-georama text-center">
                         TERMS OF SERVICE
-                    </a>
+                    </Link>
 
                     <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
                 
-                    <a href="" target="blank" className="font-georama text-center">
+                    <Link href="" target="blank" className="font-georama text-center">
                         PRIVACY POLICY
-                    </a>
+                    </Link>
                     
                     <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
 
-                    <a href="" target="blank" className="font-georama ">
+                    <Link href="" target="blank" className="font-georama ">
                         REFUND POLICY
-                    </a>
+                    </Link>
                     
                     <div className="h-2 sm:h-4 w-px bg-black items-center"></div>
 
-                    <a href="" target="blank" className="font-georama">
+                    <Link href="" target="blank" className="font-georama">
                         ACCESSIBILITY POLICY
-                    </a>
+                    </Link>
 
                 </div>
                 

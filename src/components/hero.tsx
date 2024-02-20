@@ -5,7 +5,7 @@ const Hero = () =>{
         //Hero Container
         <section className="flex flex-col px-[21%] py-10 sm:py-20 sm:mb-20">
 
-        <div className="flex flex-row gap-4 justify-between">
+        <div className="flex flex-row gap-4 justify-between relative">
 
             <div className="flex flex-col">
                 <p className="font-georama text-snow text-2xl sm:text-4xl sm:leading-tight">
@@ -28,7 +28,7 @@ const Hero = () =>{
 
         </div>
 
-        <p className="hidden sm:flex text-snow text-small-text sm:text-xl w-44 sm:w-hero sm:-mt-24">
+        <p className="hidden xl:flex text-snow text-small-text sm:text-xl w-44 sm:w-hero sm:-mt-24 ">
                 Succors in breaking down communication gap,
                 empower deaf individualsand help learn and 
                 communicate through Filipino Sign Language (FSL)

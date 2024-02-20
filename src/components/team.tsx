@@ -3,23 +3,23 @@ import Link from "next/link";
 
 const Team = () => {
   return (
-    <section id="team" className="flex flex-col items my-20 px-10 sm:px-24 gap-8">
+    <section id="team" className="flex flex-col items my-10 sm:my-20 px-10 sm:px-24 gap-8">
 
       <div className="flex flex-col text-center">
 
-      <p className="font-georama text-xl sm:text-3xl">
+      <p className="font-georama text-3xl">
         MEET THE
       </p>
 
-      <p className="font-bold text-3xl sm:text-6xl">
+      <p className="font-bold text-6xl">
         TEAM
       </p>
 
       </div>
 
-      <div className="grid grid-cols-2 sm:flex flex-col sm:flex-row gap-10 justify-center">
+      <div className="grid grid-cols-2 sm:flex flex-col sm:flex-row gap-10 justify-between">
 
-        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2">
+        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 max-w-[300px]">
 
           <Image src="/images/team/luis.svg" alt="luis" width={215} height={200} />
 
@@ -28,9 +28,9 @@ const Team = () => {
           </p>
 
           <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
-          Luis is the head officer in-charge in <br />
-          developing Kumpas. He is currently the <br />
-          AWSCC Haribon Captain and GDSC PLM <br />
+          Luis is the Head Officer in-charge in 
+          developing Kumpas. He is currently the 
+          AWSCC Haribon Captain and GDSC PLM 
           Data Lead
           </p>
 
@@ -53,7 +53,7 @@ const Team = () => {
 
         </div>
 
-        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 ">
+        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 max-w-[300px]">
 
           <Image src="/images/team/earl.svg" alt="earl" width={180} height={200} />
 
@@ -62,10 +62,10 @@ const Team = () => {
           </p>
 
           <p className="font-georama font-light text-[4px] sm:text-xs text-snow">
-          Earl is the head officer in-charge in the <br />
-          operations of Kumpas. He is currently the <br />
-          AWS CC Haribon Co-Captain and ICpEP.se <br />
-          PLM Treasurer<br />
+          Earl is the Head Officer in-charge in the 
+          Operations of Kumpas. He is currently the 
+          AWS CC Haribon Co-Captain and ICpEP.se 
+          PLM Treasurer
           </p>
 
           <p className="font-georama font-light text-[8px] sm:text-sm text-snow">
@@ -87,19 +87,19 @@ const Team = () => {
 
         </div>
 
-        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2">
+        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 max-w-[300px]">
 
-          <Image src="/images/team/ricki.png" alt="ricki" width={200} height={200} />
+          <Image src="/images/team/ricki.png" alt="ricki" width={190} height={200} />
 
           <p className="sm:text-2xl font-bold text-primary">
             RICKI MAE VICENTE
           </p>
 
-          <p className="font-georama font-light text-[4px] sm:text-sm text-snow">
-            Ricki is the executive officer of Kumpas. She <br />
-            is currently the College of Engineering <br />
-            Secretariat Head and volunteer <br />
-            of Operations Department of GDSC PLM <br />
+          <p className="font-georama font-light text-[4px] sm:text-sm text-snow w-50">
+            Ricki is the Executive Officer of 
+            Kumpas. She is currently the CEng 
+            Secretariat Head and volunteer 
+            in GDSC PLM 
           </p>
 
           <p className="font-georama font-light text-[8px] sm:text-xs text-snow">
@@ -121,7 +121,7 @@ const Team = () => {
 
         </div>
 
-        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2">
+        <div className="p-5 rounded-2xl bg-secondary flex flex-col justify-center text-center items-center gap-2 max-w-[300px]">
 
           <Image src="/images/team/vince.svg" alt="vince" width={200} height={200} />
 
@@ -130,10 +130,10 @@ const Team = () => {
           </p>
 
           <p className="font-georama font-light text-[4px] sm:text-sm text-snow">
-            Vince is the research and development head. <br />
-            He is the GDSC PLM Community Relations <br />
-            Lead and senior officer under Secretariat <br />
-            Committee of CEng
+            Vince is the Research and 
+            Development head.He is the 
+            GDSC PLM ComRel Lead and Senior 
+            Officer of Secretariat of CEng
           </p>
 
           <p className="font-georama font-light text-[8px] sm:text-xs text-snow">

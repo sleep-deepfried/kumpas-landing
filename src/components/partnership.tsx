@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Partnership = () => {
     return(
-        <section id="partnership" className="my-10 sm:my-20 flex flex-col px-10 sm:px-24 gap:7 sm:gap-14">
+        <section id="partnership" className="mb-10 sm:my-20 flex flex-col px-10 sm:px-24 gap:7 sm:gap-14">
         
         <div className="flex flex-col">
             <div className="flex flex-row">
