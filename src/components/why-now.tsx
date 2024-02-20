@@ -22,7 +22,7 @@ const WhyNow: React.FC = () => {
 
 
     return (
-        <section className="bg-snow flex flex-row justify-between px-10 sm:px-24">
+        <section className="bg-snow flex flex-row justify-between px-5 sm:px-24">
             <div className="flex flex-col">
                 <div className="flex flex-col gap-4 mb-4">
                     <div id="why-now" className="h-10 sm:h-20" > </div>
@@ -33,133 +33,133 @@ const WhyNow: React.FC = () => {
                         </p>
                     </div>
 
-                    <p className="font-bold text-secondary text-3xl sm:text-6xl">
+                    <p className="font-bold text-secondary text-3xl sm:text-6xl pr-10">
                         COMMUNICATION
                         BARRIERS EXIST!
                     </p>
                 </div>
-                
-                {/* Why Now Card 1 */}
-                <div
-                    className={`p-2 w-1/2 ${
-                        expandedCards === 1 ? 'border-l-4 border-secondary' : ''
-                    } `}
-                    onClick={() => {toggleExpansion(1); }}
-                >
+                <div className="flex flex-col items-center sm:items-start">
+                    {/* Why Now Card 1 */}
+                    <div
+                        className={`p-2 w-80 ${
+                            expandedCards === 1 ? 'max-sm:border-x-4 border-l-4 border-secondary' : ''
+                        } `}
+                        onClick={() => {toggleExpansion(1); }}
+                    >
+                        <button className="flex flex-row">
+                            <Image
+                                src="/images/why-now/why-now-1.svg"
+                                alt="why-now-1"
+                                width={75}
+                                height={75}
+                            />
+                            <div className="flex flex-col">
+                                <p className="flex text-left font-bold w-56 text:xs sm:text-lg">
+                                    Lack of identity due to the exclusion in multilingual classrooms
+                                </p>
+                                <p
+                                    className={`w-44 sm:w-56 text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base ${
+                                        expandedCards === 1 ? 'max-h-20' : 'max-h-0' 
+                                    }`}
+                                >
+                                    Deaf students excluded in a multilingual classroom 
+                                    due to the lack of awareness to Filipino Sign 
+                                    Language
+                                </p>
+                            </div>
+                        </button>
+                    </div>
+
+                    {/* Why Now Card 2 */}
+                    <div
+                        
+                        className={`p-2 w-80 ${
+                            expandedCards === 2 ? 'max-sm:border-x-4 border-l-4 border-secondary' : ''
+                        } `}
+                        onClick={() => toggleExpansion(2)}
+                    >
                     <button className="flex flex-row">
+                            <Image
+                                src="/images/why-now/why-now-2.svg"
+                                alt="why-now-2"
+                                width={75}
+                                height={75}
+                            />
+                            <div className="flex flex-col">
+                                <p className="flex text-left font-bold w-56 text:xs sm:text-lg">
+                                    Treat deaf children as disabled and
+                                    linguistic deprivation at a young age
+                                </p>
+                                <p
+                                    className={`w-44 sm:w-56 text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
+                                        expandedCards === 2 ? 'max-h-20' : 'max-h-0'
+                                    }`}
+                                >
+                                    This is the expanded description that will be shown when clicked.
+                                </p>
+                            </div>
+                        </button>
+                    </div>
+
+                    {/* Why Now Card 3 */}
+                    <div
+                        className={`p-2 w-80 ${
+                            expandedCards === 3 ? 'max-sm:border-x-4 border-l-4 border-secondary' : ''
+                        } `}
+                        onClick={() => toggleExpansion(3)}
+                    >
+                        <button className="flex flex-row">
                         <Image
-                            src="/images/why-now/why-now-1.svg"
-                            alt="why-now-1"
+                            src="/images/why-now/why-now-3.svg"
+                            alt="why-now-3"
                             width={75}
                             height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
-                                Lack of identity due to the exclusion in multilingual classrooms
+                            <p className="flex text-left font-bold w-56 text:xs sm:text-lg">
+                                Exact messages only get across using 
+                                mouthing
                             </p>
                             <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base ${
-                                    expandedCards === 1 ? 'max-h-20' : 'max-h-0' 
-                                }`}
-                            >
-                                Deaf students excluded in a multilingual classroom 
-                                due to the lack of awareness to Filipino Sign 
-                                Language
-                            </p>
+                                    className={`w-44 sm:w-56 text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
+                                        expandedCards  === 3 ? 'max-h-20' : 'max-h-0'
+                                    }`}
+                                >
+                                    This is the expanded description that will be shown when clicked.
+                                </p>
                         </div>
-                    </button>
-                </div>
+                        </button>
+                    </div>
 
-                {/* Why Now Card 2 */}
-                <div
-                    
-                    className={`p-2 w-80 ${
-                        expandedCards === 2 ? 'border-l-4 border-secondary' : ''
-                    } `}
-                    onClick={() => toggleExpansion(2)}
-                >
-                <button className="flex flex-row">
+                    {/* Why Now Card 4 */}
+                    <div
+                        className={`p-2 w-80 ${
+                            expandedCards  === 4 ? 'max-sm:border-x-4 border-l-4 border-secondary' : ''
+                        } `}
+                        onClick={() => toggleExpansion(4)}
+                    >
+                        <button className="flex flex-row">
                         <Image
-                            src="/images/why-now/why-now-2.svg"
-                            alt="why-now-2"
+                            src="/images/why-now/why-now-4.svg"
+                            alt="why-now-4"
                             width={75}
                             height={75}
                         />
                         <div className="flex flex-col">
-                            <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
-                                Treat deaf children as disabled and
-                                linguistic deprivation at a young age
+                            <p className="flex text-left font-bold w-56 text:xs sm:text-lg">
+                                No implementation plan of Filipino Sign 
+                                Language in the present K-12 curriculum
                             </p>
-                            <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
-                                    expandedCards === 2 ? 'max-h-20' : 'max-h-0'
-                                }`}
-                            >
-                                This is the expanded description that will be shown when clicked.
-                            </p>
+                            <p className={`w-44 sm:w-56 text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
+                                        expandedCards === 4 ? 'max-h-20' : 'max-h-0'
+                                    }`}
+                                >
+                                    This is the expanded description that will be shown when clicked.
+                                </p>
                         </div>
-                    </button>
-                </div>
-
-                {/* Why Now Card 3 */}
-                <div
-                    className={`p-2 w-80 ${
-                        expandedCards === 3 ? 'border-l-4 border-secondary' : ''
-                    } `}
-                    onClick={() => toggleExpansion(3)}
-                >
-                    <button className="flex flex-row">
-                    <Image
-                        src="/images/why-now/why-now-3.svg"
-                        alt="why-now-3"
-                        width={75}
-                        height={75}
-                    />
-                    <div className="flex flex-col">
-                        <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
-                            Exact messages only get across using 
-                            mouthing
-                        </p>
-                        <p
-                                className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
-                                    expandedCards  === 3 ? 'max-h-20' : 'max-h-0'
-                                }`}
-                            >
-                                This is the expanded description that will be shown when clicked.
-                            </p>
+                        </button>
                     </div>
-                    </button>
                 </div>
-
-                {/* Why Now Card 4 */}
-                <div
-                    className={`p-2 w-80 ${
-                        expandedCards  === 4 ? 'border-l-4 border-secondary' : ''
-                    } `}
-                    onClick={() => toggleExpansion(4)}
-                >
-                    <button className="flex flex-row">
-                    <Image
-                        src="/images/why-now/why-now-4.svg"
-                        alt="why-now-4"
-                        width={75}
-                        height={75}
-                    />
-                    <div className="flex flex-col">
-                        <p className="flex text-left font-bold w-44 text:xs sm:text-lg">
-                            No implementation plan of Filipino Sign 
-                            Language in the present K-12 curriculum
-                        </p>
-                        <p className={`text-justify transition-max-height duration-700 overflow-hidden text-xs sm:text-base  ${
-                                    expandedCards === 4 ? 'max-h-20' : 'max-h-0'
-                                }`}
-                            >
-                                This is the expanded description that will be shown when clicked.
-                            </p>
-                    </div>
-                    </button>
-                </div>
-
             </div>
             
             <div className="hidden sm:flex sm:items-center items-end ">
