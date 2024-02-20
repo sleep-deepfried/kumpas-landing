@@ -12,6 +12,11 @@
   src: url("/fonts/Georama/Georama-VariableFont_wdth,wght.ttf");
 }
 
+@font-face {
+  font-family: 'Dosis';
+  src: url('/fonts/Dosis/Dosis-VariableFont_wght.ttf') format('truetype');
+}
+
 :root {
   --foreground-rgb: 250, 250, 250;
 }

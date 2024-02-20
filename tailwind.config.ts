@@ -18,6 +18,7 @@ const config: Config = {
       fontFamily: {
         georama: ["Georama", "sans-serif"],
         koulen: ["Koulen", "sans-serif"],
+        dosis: ["Dosis", "sans-serif"],
       },
       fontSize: {
         'title': '11.25rem',

@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Dosis } from "next/font/google";
 import "./globals.css";
 
-const dosis = Dosis({
-  weight: ["400", "600", "700"], // Include multiple weights in the array
-  subsets: ["latin"],
-});
+
+
 
 export const metadata: Metadata = {
   title: "KUMPAS",
@@ -19,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={dosis.className}>{children}</body>
+      <body style={{ fontFamily: 'Dosis' }}>{children}</body>
     </html>
   );
 }
