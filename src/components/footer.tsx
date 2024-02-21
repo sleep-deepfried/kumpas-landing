@@ -7,8 +7,8 @@ const Footer = () => {
             
             <div className="flex flex-row">
 
-                <div className="flex flex-row justify-between sm:flex-col sm:gap-2 w-screen">
-                    <p className="font-bold text-lg sm:text-3xl">
+                <div className="flex flex-row items justify-between sm:flex-col sm:gap-2 w-screen">
+                    <p className="font-bold text-xl sm:text-3xl">
                         KUMPAS
                     </p>
 

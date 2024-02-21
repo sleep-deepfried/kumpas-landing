@@ -49,41 +49,41 @@ const Home: React.FC = () => {
 
       <div className="h-[400px] sm:h-[750px] w-[150%] ml bg-secondary rounded-b-[50%] sm:rounded-b-[100%] ml-[-25%] ">
         <div className="h-24"></div>
-          <div ref={ref1} className={`transition-opacity ease-in duration-1000 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
+          <div ref={ref1} className={`transition-opacity ease-in duration-500 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
             <Hero />
         </div>
       </div>
       
-      <div ref={ref2} className={`transition-opacity ease-in duration-1000 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
+      <div ref={ref2} className={`transition-opacity ease-in duration-500 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
         <WhyNow />
       </div>
       
-      <div ref={ref3} className={`transition-opacity ease-in duration-1000 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
+      <div ref={ref3} className={`transition-opacity ease-in duration-500 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
         <Features />
       </div>
       
       <div className="bg-educators sm:h-educators w-full bg-cover bg-no-repeat">
-        <div ref={ref4} className={`py-[7%] transition-opacity ease-in duration-1000 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref4} className={`py-[7%] transition-opacity ease-in duration-500 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
           <Educators />
         </div>
       </div>
 
-      <div ref={ref5} className={`transition-opacity ease-in duration-1000 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
+      <div ref={ref5} className={`transition-opacity ease-in duration-500 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
         <Partnership />
       </div>
 
       <div className="bg-primary">
-        <div ref={ref6} className={`transition-opacity ease-in duration-1000 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref6} className={`transition-opacity ease-in duration-500 ${isVisible6 ? "opacity-100" : "opacity-0"}`}>
           <SGD />
         </div>
       </div>
 
-      <div ref={ref7} className={`transition-opacity ease-in duration-1000 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
+      <div ref={ref7} className={`transition-opacity ease-in duration-500 ${isVisible7 ? "opacity-100" : "opacity-0"}`}>
         <Team />
       </div>
 
       <div className="bg-primary">
-        <div ref={ref8} className={`transition-opacity ease-in duration-1000 ${isVisible8 ? "opacity-100" : "opacity-0"}`}>
+        <div ref={ref8} className={`transition-opacity ease-in duration-500 ${isVisible8 ? "opacity-100" : "opacity-0"}`}>
           <Footer />
         </div>
       </div>
