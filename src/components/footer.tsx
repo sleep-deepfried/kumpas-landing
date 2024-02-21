@@ -21,7 +21,7 @@ const Footer = () => {
                             <Image src="/images/footer/ig.svg" alt="ig" width={20} height={20}/>
                         </Link>
                         <Link href="/" >
-                            <Image src="/images/footer/linkedin.svg" alt="linkedin" width={22} height={20}/>
+                            <Image src="/images/footer/linkedin.svg" alt="linkedin" width={24} height={20}/>
                         </Link>
 
                     </div>
